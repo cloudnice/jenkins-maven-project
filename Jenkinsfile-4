@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Welcome to CLOUDNICE district'
                 sh 'python3 --version'
-                sh 'python3 pipeline.py'
+                sh 'python3 app.py'
             }
         }
     }
